@@ -11,7 +11,9 @@ node_js:
       token:
         secure: "09e92fccdbf72c631f51f6300ad42129290ca1aa"
 
-
+  sauce_connect:
+    username: "Navandeep025"
+    access_key: "7f6690d0-7bad-43f0-b1bd-1ac279e4c422"
 
 script:
   - sonar-scanner
