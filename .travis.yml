@@ -5,12 +5,11 @@ language: node_js
 node_js:
   - "stable"
 
-  addons:
-    sonarcloud:
-      organization: "navandeep025-github"
-      token:
-        secure: "a06a490cc7a1efffc93801ad5cf75de11e88d522"
-
+addons:
+  sonarcloud:
+    organization: "navandeep025-github"
+    token:
+      secure: "a06a490cc7a1efffc93801ad5cf75de11e88d522"
   sauce_connect:
     username: "Navandeep025"
     access_key: "7ff26f1c-c598-434a-b782-ff4b60c47832"
