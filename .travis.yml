@@ -4,3 +4,15 @@ sudo: required
 language: node_js
 node_js:
   - "stable"
+
+  addons:
+    sonarcloud:
+      organization: "navandeep025-github"
+      token:
+        secure: "09e92fccdbf72c631f51f6300ad42129290ca1aa"
+
+
+
+script:
+  - sonar-scanner
+  - npm test
