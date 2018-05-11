@@ -3,6 +3,5 @@ applications:
 - name: maxapp
   memory: 512M
   path: E:\React-App
-  buildpath: https://github.com/Navandeep025/React-App.git
   random-route: true
   command: npm run forever 
