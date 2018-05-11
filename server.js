@@ -50,7 +50,7 @@ app.use(webpackHotMiddleware(compiler));
 
 
 //Listening to port 8081
-app.listen(8081, '0.0.0.0', function(err, result) {
+app.listen(process.env.PORT || 3000, function(err, result) {
     if (err) {
         console.error("Error ", err);
     }
